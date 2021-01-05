@@ -1,0 +1,46 @@
+.custom-btn1{
+    background: inherit;
+    color: white;
+    border: none;
+    padding: 3px 12px;
+    margin-top:0.3rem;
+    position: relative;
+}
+.separator{
+    height: 1px;
+    width: 100%;
+    background: blue;
+}
+.drop-btn1{
+    color: white;
+    padding:10px;
+    padding-right: 18px;
+    padding-left: 0;
+}
+.aligner{
+    height: 16px;
+}
+.logo{
+    height: 50px;
+}
+.icn-cm{
+    margin-left: 5px;
+}
+.dropdown-content{
+
+    display: none;
+    position: absolute; 
+    background: #000;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+.custom-btn1:hover{
+    color: rgb(70, 148, 238);
+}
+.custom-btn1:hover ~.dropdown-content{
+    display: block;
+}
+.dropdown-content:hover{
+    display: block;
+}   
+
