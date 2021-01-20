@@ -27,7 +27,7 @@
     margin-left: 5px;
 }
 .dropdown-content{
-
+    z-index: 100;
     display: none;
     position: absolute; 
     background: #000;

@@ -1,0 +1,30 @@
+.container1_7{
+    width: 1000px;
+    min-height: 300px;
+    background: transparent;
+    margin-left: calc(50% - 500px);
+    margin-top: 20px;
+}
+.container2_7{
+    width: 400px;
+    min-height: 300px;
+    background: transparent;
+    margin-left: calc(50% - 200px);
+    margin-top: 20px;
+    display: none;
+}
+.wrapper_7{
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    
+
+}
+@media screen and (max-width:1000px){
+    .container2_7{
+        display: block;
+    }
+    .container1_7{
+        display: none;
+    }
+}

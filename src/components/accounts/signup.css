@@ -1,0 +1,68 @@
+.back-ground{
+    background: url('../../images/Amar1.jpg');
+    position: absolute;
+    width: 100vw;
+    height: calc(100%   - 80px);
+    z-index: 1;
+}
+.rounded-pic{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate( calc(175px - 50% ), -50% );
+
+}
+.mark11{
+    color: black;
+    font-size: 20px;
+    width: 600px;
+    margin-left: calc(50vw - 300px);
+    background: transparent;
+}
+
+.container-div{
+    width: 400px;
+    height: 500px;
+    background: black;
+    opacity: 0.9;
+    z-index: 2;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 50vh;
+    transform: translate(-50%,-55%);
+    border-radius: 5px;
+    
+}
+
+.form-container{
+    padding-top: 5%;
+    text-align: center;
+    vertical-align: center;
+}
+.label{
+    color: white;
+    padding:0px;
+}
+.regg{
+    color: white;
+    padding-top:10px;
+
+}
+.input{
+    background: inherit;
+    border: none;
+    width: 80%;
+    text-align: left;
+    border-bottom: 1px solid gray;
+    color: whitesmoke;
+    padding:3px;
+    margin-bottom: 20px;
+}
+.submit{
+    color: whitesmoke;
+    background: blue;
+    border-radius: 5px;
+    padding:5px 30px 5px 30px;
+}
