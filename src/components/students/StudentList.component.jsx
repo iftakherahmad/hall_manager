@@ -27,6 +27,12 @@ class StudentList extends Component {
             </div>
             <div className="container2_7">
                 <StudentV2 student={this.props.students[0]}/>
+                <StudentV2 student={this.props.students[0]}/>
+                <StudentV2 student={this.props.students[0]}/>
+                <StudentV2 student={this.props.students[0]}/>
+                <StudentV2 student={this.props.students[0]}/>
+                <StudentV2 student={this.props.students[0]}/>
+
             </div>
             
         </div> );
